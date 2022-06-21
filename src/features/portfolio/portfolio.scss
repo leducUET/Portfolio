@@ -1,0 +1,42 @@
+$text-dark-color: #f8f9fa;
+$bg-dark-color: #1a1b1e;
+$bg-content-dark-color: #2c2e33;
+$bg-hover-dark-color: #a6a7ab;
+$bottom-link-dark-color: #5c5f66;
+
+$text-light-color: #101113;
+$bg-light-color: #dee2e6;
+$bg-content-light-color: #ffffff;
+$bg-hover-light-color: #a6a7ab;
+$bottom-link-light-color: #5c5f66;
+
+$skin-color: #c92a2a;
+
+.portfolio {
+  min-height: calc(100% + 2em);
+  .project-item {
+    .thumbnail {
+      border-radius: 4px;
+      width: 100%;
+    }
+    h4 {
+      padding: 1em 0;
+      text-align: center;
+    }
+  }
+}
+
+.portfolio-dark {
+  color: $text-dark-color;
+  background: $bg-dark-color;
+  .thumbnail {
+    border: 5px solid $bottom-link-dark-color;
+  }
+}
+.portfolio-light {
+  color: $text-light-color;
+  background: $bg-light-color;
+  .thumbnail {
+    border: 5px solid $bottom-link-light-color;
+  }
+}

@@ -1,0 +1,36 @@
+$text-dark-color: #f8f9fa;
+$bg-dark-color: #1a1b1e;
+$bg-hover-dark-color: #a6a7ab;
+$bottom-link-dark-color: #5c5f66;
+
+$text-light-color: #101113;
+$bg-light-color: #c1c2c5;
+$bg-hover-light-color: #a6a7ab;
+$bottom-link-light-color: #5c5f66;
+
+$skin-color: #c92a2a;
+
+.header {
+  h1 {
+    line-height: 4em;
+    font-weight: 700;
+    font-size: 3em;
+    position: relative;
+    ::before {
+      content: "";
+      position: absolute;
+      width: 2em;
+      border-bottom: 5px solid $skin-color;
+      top: 2.9em;
+      left: 0;
+    }
+    ::after {
+      content: "";
+      position: absolute;
+      width: 1.2em;
+      border-bottom: 5px solid $skin-color;
+      top: 3.2em;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+$text-dark-color: #f8f9fa;
+$bg-dark-color: #1a1b1e;
+$bg-content-dark-color: #2c2e33;
+$bg-hover-dark-color: #a6a7ab;
+$bottom-link-dark-color: #5c5f66;
+
+$text-light-color: #101113;
+$bg-light-color: #dee2e6;
+$bg-content-light-color: #ffffff;
+$bg-hover-light-color: #a6a7ab;
+$bottom-link-light-color: #5c5f66;
+
+$skin-color: #c92a2a;
+
+.contact {
+  min-height: calc(100% + 2em);
+  padding-bottom: 3em;
+  .contact-subheader {
+    margin: 2em 0;
+    text-align: center;
+    h2 {
+      color: $skin-color;
+      font-weight: 700;
+    }
+  }
+  .contact-item {
+    text-align: center;
+    i {
+      line-height: 2em;
+      font-size: 2em;
+    }
+  }
+  .input {
+    width: 100%;
+    opacity: 0.7;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    background: $skin-color;
+  }
+}
+
+.contact-dark {
+  color: $text-dark-color;
+  background: $bg-dark-color;
+  .input {
+    background: $bg-content-dark-color;
+    label,
+    input {
+      color: $text-dark-color;
+    }
+  }
+}
+.contact-light {
+  color: $text-light-color;
+  background: $bg-light-color;
+  .input {
+    label {
+      color: $text-light-color;
+    }
+    input {
+      color: $text-light-color;
+    }
+  }
+}

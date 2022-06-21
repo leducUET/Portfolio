@@ -1,0 +1,113 @@
+$text-dark-color: #f8f9fa;
+$bg-sidebar-dark-color: #2c2e33;
+$bg-hover-dark-color: #a6a7ab;
+$bottom-link-dark-color: #5c5f66;
+
+$text-light-color: #101113;
+$bg-sidebar-light-color: #ffffff;
+$bg-hover-light-color: #a6a7ab;
+$bottom-link-light-color: #5c5f66;
+
+$skin-color: #c92a2a;
+
+.sidebar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .feature-link {
+    text-decoration: none;
+  }
+  .top {
+    position: absolute;
+    top: 1.5em;
+    font-size: 3em;
+    li {
+      font-weight: 600;
+      padding: 0.2em 0.5em;
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 0.75em;
+        height: 0.75em;
+        border-top: 5px solid $skin-color;
+        border-left: 5px solid $skin-color;
+        top: 0;
+        left: 0;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 0.75em;
+        height: 0.75em;
+        border-bottom: 5px solid $skin-color;
+        border-right: 5px solid $skin-color;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+  .center {
+    li {
+      line-height: 3em;
+      font-size: 1.2em;
+      margin-top: 1em;
+      i,
+      span {
+        margin-left: 0.75em;
+      }
+    }
+    .active {
+      li {
+        color: $skin-color;
+      }
+    }
+  }
+}
+.sidebar-dark {
+  background: $bg-sidebar-dark-color;
+  .top {
+    li {
+      color: $text-dark-color;
+    }
+  }
+  .center {
+    li {
+      color: $text-dark-color;
+      border-bottom: 1px solid $bottom-link-dark-color;
+    }
+    a {
+      :hover {
+        color: $bg-hover-dark-color;
+      }
+    }
+  }
+}
+.sidebar-light {
+  background: $bg-sidebar-light-color;
+  .top {
+    li {
+      color: $text-light-color;
+    }
+  }
+  .center {
+    li {
+      color: $text-light-color;
+      border-bottom: 1px solid $bottom-link-light-color;
+    }
+    a {
+      :hover {
+        color: $bg-hover-light-color;
+      }
+    }
+  }
+}

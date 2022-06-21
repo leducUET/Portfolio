@@ -1,0 +1,74 @@
+$text-dark-color: #f8f9fa;
+$bg-dark-color: #1a1b1e;
+$bg-hover-dark-color: #a6a7ab;
+$bottom-link-dark-color: #5c5f66;
+
+$text-light-color: #101113;
+$bg-light-color: #dee2e6;
+$bg-hover-light-color: #a6a7ab;
+$bottom-link-light-color: #5c5f66;
+
+$skin-color: #c92a2a;
+
+.home {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  .home-info {
+    h3 {
+      font-size: 1.9em;
+      margin-bottom: 0.5em;
+      span {
+        color: $skin-color;
+      }
+    }
+    .discription {
+      font-size: 1.3em;
+    }
+    a {
+      text-decoration: none;
+    }
+    button {
+      background: $skin-color;
+      margin-top: 2.5em;
+    }
+  }
+  .author-img {
+    text-align: center;
+
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 4em;
+      height: 4em;
+      border-top: 10px solid $skin-color;
+      border-left: 10px solid $skin-color;
+      top: -3.5em;
+      left: 0;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 4em;
+      height: 4em;
+      border-bottom: 10px solid $skin-color;
+      border-right: 10px solid $skin-color;
+      bottom: -3.5em;
+      right: 0;
+    }
+    img {
+      width: 70%;
+    }
+  }
+}
+
+.home-dark {
+  background: $bg-dark-color;
+  color: $text-dark-color;
+}
+
+.home-light {
+  background: $bg-light-color;
+  color: $text-light-color;
+}
