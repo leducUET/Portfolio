@@ -35,7 +35,7 @@ export default function Services() {
           <Grid item container xs={12} spacing={5}>
             <Grid item xs={4}>
               <div className="service-item">
-                <i class="fas fa-laptop-code"></i>
+                <i className="fas fa-laptop-code"></i>
                 <h3 className="service-title">Web Developer</h3>
                 <p className="service-discription">
                   I am responsible for creating a website or web page design and

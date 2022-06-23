@@ -42,28 +42,28 @@ export default function Contact() {
             </Grid>
             <Grid item xs={3}>
               <div className="contact-item">
-                <i class="fas fa-phone"></i>
+                <i className="fas fa-phone"></i>
                 <h5>Call Me On</h5>
                 <p className="contact-discription">+84 363 522 974</p>
               </div>
             </Grid>
             <Grid item xs={3}>
               <div className="contact-item">
-                <i class="fas fa-university"></i>
+                <i className="fas fa-university"></i>
                 <h5>University</h5>
                 <p className="contact-discription">VNU Hanoi-UET</p>
               </div>
             </Grid>
             <Grid item xs={3}>
               <div className="contact-item">
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
                 <h5>Email</h5>
                 <p className="contact-discription">levanduc262001@gmail.com</p>
               </div>
             </Grid>
             <Grid item xs={3}>
               <div className="contact-item">
-                <i class="fab fa-facebook"></i>
+                <i className="fab fa-facebook"></i>
                 <h5>Facebook</h5>
                 <p className="contact-discription">@levanduc0206</p>
               </div>

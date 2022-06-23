@@ -1,6 +1,5 @@
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
-const salt = bcrypt.genSaltSync(10);
 
 // helper function.
 let checkUser = (email) => {
@@ -25,7 +24,10 @@ const handleLoginUser = (email, password) => {
         if (checkPassword) {
           resolve({
             success: true,
-            user,
+            user: {
+              _id: user._id,
+              email: user.email,
+            },
           });
         } else {
           resolve({

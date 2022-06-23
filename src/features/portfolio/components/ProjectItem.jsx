@@ -1,12 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
 export default function ProjectItem(props) {
   return (
     <>
-      <Link to={props.link}>
+      <a target="_blank" href={props.link} rel="noreferrer">
         <img src={props.srcImg} alt="" className="thumbnail" />
-      </Link>
+      </a>
       <h4>{props.title}</h4>
     </>
   );

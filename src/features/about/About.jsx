@@ -96,7 +96,7 @@ export default function About() {
                   <div className="detail-item">
                     <div className="circle-dot"></div>
                     <div className="time">
-                      <i class="fas fa-box" /> 08/2019 - Present
+                      <i className="fas fa-box" /> 08/2019 - Present
                     </div>
                     <h6 className="title">Study at University</h6>
                     <p className="discription">

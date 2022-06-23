@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
-import Sidebar from "../components/sidebar/Sidebar";
-import { changeTheme } from "../redux/slices/controlColorSlice";
+import Sidebar from "../../components/sidebar/Sidebar";
+import { changeTheme } from "../../redux/slices/controlColorSlice";
 import "./main.scss";
 
 export default function Main() {
