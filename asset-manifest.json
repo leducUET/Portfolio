@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.88fe3f85.css",
+    "main.js": "/Portfolio/static/js/main.c3bfaf0d.js",
+    "static/media/movie_app.png": "/Portfolio/static/media/movie_app.f2baddf7d69a40a54565.png",
+    "static/media/author.jpg": "/Portfolio/static/media/author.c82ee8a25e7d1fb88a53.jpg",
+    "static/media/healthy_first.png": "/Portfolio/static/media/healthy_first.643ee46ab047a156ef71.png",
+    "index.html": "/Portfolio/index.html",
+    "main.88fe3f85.css.map": "/Portfolio/static/css/main.88fe3f85.css.map",
+    "main.c3bfaf0d.js.map": "/Portfolio/static/js/main.c3bfaf0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88fe3f85.css",
+    "static/js/main.c3bfaf0d.js"
+  ]
+}
